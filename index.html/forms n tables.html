@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> forms </title>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO HERTECH TRAIL ACADEMY</h1>
+
+    </header>
+    <main>
+    <p><b>Kindly fill out this form</b></p>
+
+    <form>
+        <div>
+        <label for="firstname"> firstname</label>
+      <input type="text"  placeholder="firstname "  id="firstname" required />
+      
+      </div>
+<br />
+      <div>
+         <label for="lastname">lastname</label>
+        <input type="text" placeholder="lastname" id="lastname" required/>
+    </div>
+    <br />
+    
+
+      <div>
+
+        <labelfor="email">Email  address</label>
+        <input id ="email" type="email"/>
+      </div>
+
+      <br />
+      
+      <div>
+        <label for="phone">phone number</label>
+        <input type="tel" id="phone">
+      </div>
+      <br />
+      <div>
+        <label for="dob">date of birth</label>
+        <input type="date" id="dob"
+      </div><br />
+      <input type="password" maxlength="10">
+      <br />
+
+      <div>
+        <label>Gender:</label><br>
+
+        <label for="male">male</label>
+        <input id="male" type="radio" name="gender">
+      
+      
+        <label for="female">female</label>
+        <input id="female" type="radio" name="gender">
+      </div>
+      <br />
+      <div>
+        <label>In nothing less than 200 words tell us why you should be <br>offered this
+          scholarship</label>
+           <
+          <textarea  cols="30" rows="20" maxlength="20" minlength="10"></textarea>
+      </div><br />
+      <div>
+        <label for="Experience">Experience</label>
+        <input type="number" id="Experience">
+      </div>
+      <br />
+
+      <div>
+        
+        <label>Choose your nationality</label>
+      <select>
+        <option value=""></option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="kenya">kenya</option>
+        <option value="Cameroon">Cameroon</option>
+        <option value="Tunisia">Tunisia</option>
+      </select>
+    </div>
+          <br />
+        
+      <div>
+      <label>which of the languages can you speak:</label>
+      <input type="checkbox" id="js"><br />
+
+      <label for="js">javascript</label>
+      <input type="checkbox" id="js" name="lang"><br />
+      <label for="python">python</label>
+      <input type="checkbox" id="java" name="lang"><br />
+      <label for="js">javascript</label>
+      <input type="checkbox" id="python" name="lang"><br />
+      </div>
+      <input type="submit" value="submit"/>
+      <input type="reset" value="reset"/>
+
+      
+
+
+    </form>    
+    </main>
+
+</body>
+</html>
