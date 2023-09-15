@@ -1,0 +1,36 @@
+body{
+  background-image: url(./images/image3.jpg);
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+}
+p{
+ border-bottom-style: inset;
+ border-width: 25px 10px 4px 35px;
+ border-color: magenta green yellowgreen yellow
+}
+#class{
+    color: rgb(94, 40, 180);
+     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    margin-left: 10px
+}
+.one{
+    background-image: url(./images/fun\ day.png);
+    background-position: left;
+    background-size: cover;
+    background-attachment: scroll;
+    
+ }
+
+.first{
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+.second{
+  background-position: left;
+  text-align: left;
+     color: blue;
+     background-color:darksalmon;
+     opacity: 0.7;
+}
